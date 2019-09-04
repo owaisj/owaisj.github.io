@@ -1,3 +1,5 @@
 import React from "react"
+import Layout from "../layout"
+import "../styles/index.scss"
 
-export default () => <div>Hello world!</div>
+export default () => <Layout>Home Page</Layout>
