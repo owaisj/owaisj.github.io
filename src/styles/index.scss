@@ -1,6 +1,7 @@
 @import './reset';
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.9.0/css/all.css');
 
 #root-container {
   min-height: 100vh;
@@ -9,6 +10,11 @@ header,
 footer {
   font-family: 'Open Sans';
 }
+
+#content {
+  max-width: 1024px;
+}
+
 .jumbotron {
   border-radius: 0;
   background-image: linear-gradient(
@@ -34,7 +40,8 @@ footer {
 
 @media screen and (max-width: 700px) {
   .jumbotron {
-    background-size: 100vh;
+    // height: 40vh;
+    background-size: 80vh;
   }
   .display-1 {
     font-size: 4rem;
@@ -42,19 +49,16 @@ footer {
 }
 
 a {
-  color: white;
+  color: #ccc;
   &:hover {
-    color: #ccc;
+    color: #fff;
     text-decoration-line: overline;
     text-decoration-color: grey;
   }
 }
 
-.card-body a {
-  color: black;
-  &:hover {
-    color: grey;
-    text-decoration-line: underline;
-    text-decoration-color: grey;
+#skill-box {
+  i {
+    font-size: 4rem;
   }
 }

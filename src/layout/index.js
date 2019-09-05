@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -12,7 +12,7 @@ export default ({ children, title }) => (
         }}
         className="row d-flex justify-content-center m-3"
       >
-        <div class="col col-md-10 col-sm">
+        <div id="content" class="col col-md-10 col-sm">
           <h1 className="border-bottom border-dark display-4">{title}</h1>
           {children}
         </div>
