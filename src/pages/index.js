@@ -1,10 +1,16 @@
 import React from 'react'
 import Layout from '../layout'
+import resume from '../data/owaisj-resume.pdf'
 import '../styles/index.scss'
 
 export default () => (
   <Layout title="About Me">
     <div className="p-3">
+      <p className="lead">
+        <a href={resume} download>
+          Click Here to View My Resume
+        </a>
+      </p>
       <p>
         My name is Owais Jamil and I'm a full-stack Software Engineer from
         Austin, TX.

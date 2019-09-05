@@ -21,7 +21,7 @@ footer {
       rgba(2, 0, 36, 0.45),
       rgba(55, 90, 127, 0.45)
     ),
-    url('https://raw.githubusercontent.com/owaisj/owaisj.github.io/master/images/bg.jpg');
+    url('../images/bg.jpg');
   background-size: 100vw;
   background-position-y: 60%;
   background-repeat: no-repeat;
@@ -48,12 +48,15 @@ footer {
   }
 }
 
-a {
-  color: #ccc;
-  &:hover {
-    color: #fff;
-    text-decoration-line: overline;
-    text-decoration-color: grey;
+header,
+footer {
+  a {
+    color: #ccc;
+    &:hover {
+      color: #fff;
+      text-decoration-line: overline;
+      text-decoration-color: grey;
+    }
   }
 }
 
