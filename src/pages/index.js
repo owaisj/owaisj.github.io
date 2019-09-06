@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../layout'
 import resume from '../data/owaisj-resume.pdf'
-import '../styles/index.scss'
 
 export default () => (
   <Layout title="About Me">
