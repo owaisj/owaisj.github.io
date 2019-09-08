@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 export default () => (
   <Fragment>
-    <header className="row navbar navbar-dark navbar-expand-lg bg-dark d-flex flex-row justify-content-around m-0">
+    <header className=" row navbar navbar-dark navbar-expand-lg bg-dark d-flex flex-row justify-content-around m-0">
       <div className="navbar-brand col-sm d-flex justify-content-md-start justify-content-center">
         Owais Jamil
       </div>

@@ -7,7 +7,7 @@ const Footer = () => (
   <footer>
     <div
       className="d-flex flex-row justify-content-around py-3
-    bg-dark text-light flex-wrap row m-0"
+    bg-dark text-light flex-wrap-reverse row m-0"
     >
       <About />
       <Social />

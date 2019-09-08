@@ -7,12 +7,15 @@ export default () => (
     <div className="p-3">
       <p className="lead">
         <a href={resume} download>
-          Click Here to View My Resume
+          <strong>Click Here to View My Resume</strong>
         </a>
       </p>
-      <p>
-        My name is Owais Jamil and I'm a full-stack Software Engineer from
-        Austin, TX.
+      <p className="lead">
+        {' '}
+        <strong>
+          My name is Owais Jamil and I'm a full-stack Software Engineer from
+          Austin, TX.
+        </strong>
       </p>
       <p>
         I have two Bachelor's in Microbiology and Biochemistry from the
@@ -46,8 +49,11 @@ export default () => (
         { name: 'VueJS', item: 'fa-vuejs' },
         { name: 'Linux/Bash', item: 'fa-linux' },
       ].map(({ item, name }, idx) => (
-        <div className="col-4 col-md-3 d-flex flex-column align-items-center m-1">
-          <i key={idx} className={`fab ${item}`}></i>
+        <div
+          key={idx}
+          className="col-4 col-md-3 d-flex flex-column align-items-center m-1"
+        >
+          <i className={`fab ${item}`}></i>
           <span>{name}</span>
         </div>
       ))}
@@ -56,8 +62,11 @@ export default () => (
         { name: 'Android/iOS Development', item: 'fa-mobile-alt' },
         { name: 'REST APIs', item: 'fa-server' },
       ].map(({ name, item }, idx) => (
-        <div className="col-4 col-md-3 d-flex flex-column align-items-center m-1">
-          <i key={idx} className={`fas ${item}`}></i>
+        <div
+          key={idx}
+          className="col-4 col-md-3 d-flex flex-column align-items-center m-1"
+        >
+          <i className={`fas ${item}`}></i>
           <span>{name}</span>
         </div>
       ))}

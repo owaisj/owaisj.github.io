@@ -5,7 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Owais Jamil',
+    siteUrl: 'https://owais.io',
+    description: "Owais Jamil's portfolio site",
+  },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
